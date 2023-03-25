@@ -16,8 +16,10 @@ function logWhisper(string) {
 
 function sayHiToHeadphonedRoommate(string) {
     if (string === string.toLowerCase()) {
-        return console.log("I can't hear you!");
+        return ("I can\'t hear you!");
     } else if (string === string.toUpperCase()) {
-        return console.log("YES INDEED!");
+        return ("YES INDEED!");
+    } else if (string === "Let's have dinner together!") {
+        return ("I would love to!");
     }
 }
